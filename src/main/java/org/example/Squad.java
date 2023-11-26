@@ -15,4 +15,23 @@ public class Squad {
         this.cause = cause;
         this.heroes = new ArrayList<>();
     }
+
+    public void addHero(Hero hero) {
+        // Check if squad is already full
+        if (heroes.size() < maxSize) {
+            heroes.add(hero);
+            System.out.println(hero.name + " added to " + name + "!");
+        } else {
+            System.out.println(name + " is already at max size. Cannot add " + hero.name + ".");
+        }
+    }
+
+    public void displaySquad() {
+        System.out.println("Squad: " + name);
+        System.out.println("Cause: " + cause);
+        System.out.println("Heroes:");
+        for (Hero hero : heroes) {
+            System.out.println("- " + hero.name);
+        }
+    }
 }
