@@ -39,6 +39,15 @@ public class Squad {
         }
     }
 
+    public int calculateSquadScore() {
+        // sum up the overall scores of all heroes in the squad
+        int totalScore = 0;
+        for (Hero hero : heroes) {
+            totalScore += hero.calculateOverallScore();
+        }
+        return totalScore;
+    }
+
     public String getName() {
         return name;
     }
