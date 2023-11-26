@@ -34,4 +34,20 @@ public class Squad {
             System.out.println("- " + hero.name);
         }
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getMaxSize() {
+        return maxSize;
+    }
+
+    public String getCause() {
+        return cause;
+    }
+
+    public List<Hero> getHeroes() {
+        return heroes;
+    }
 }
