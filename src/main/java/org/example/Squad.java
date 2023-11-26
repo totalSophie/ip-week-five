@@ -48,6 +48,21 @@ public class Squad {
         return totalScore;
     }
 
+    public void battle(Squad opponent) {
+        int thisScore = calculateSquadScore();
+        int opponentScore = opponent.calculateSquadScore();
+
+        System.out.println("Battle between " + getName() + " and " + opponent.getName());
+
+        if (thisScore > opponentScore) {
+            System.out.println(getName() + " wins!");
+        } else if (thisScore < opponentScore) {
+            System.out.println(opponent.getName() + " wins!");
+        } else {
+            System.out.println("It's a draw!");
+        }
+    }
+
     public String getName() {
         return name;
     }
