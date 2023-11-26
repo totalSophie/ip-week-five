@@ -29,4 +29,15 @@ public class Hero {
     public String getWeakness() {
         return weakness;
     }
+    public Squad getSquad() {
+        return squad;
+    }
+    public void joinSquad(Squad squad) {
+        if (this.squad == null) {
+            this.squad = squad;
+            squad.addHero(this);
+        } else {
+            System.out.println("Hero " + name + " is already part of a squad.");
+        }
+    }
 }
