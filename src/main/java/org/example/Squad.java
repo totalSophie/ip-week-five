@@ -25,6 +25,10 @@ public class Squad {
             System.out.println(name + " is already at max size. Cannot add " + hero.name + ".");
         }
     }
+    public void removeHero(Hero hero) {
+        heroes.remove(hero);
+        System.out.println("Hero " + hero.getName() + " left Squad " + name + ".");
+    }
 
     public void displaySquad() {
         System.out.println("Squad: " + name);
