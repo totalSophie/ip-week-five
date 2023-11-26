@@ -36,6 +36,9 @@ public class Main {
 
         // homelander.joinSquad(avengers);
 
+        // Perform a battle between two squads
+        //justiceLeague.battle(avengers);
+
         System.out.println("Justice League Members:");
         for (Hero hero : justiceLeague.getHeroes()) {
             System.out.println(hero.getName());
