@@ -40,4 +40,13 @@ public class Hero {
             System.out.println("Hero " + name + " is already part of a squad.");
         }
     }
+
+    public void leaveSquad() {
+        if (squad != null) {
+            squad.removeHero(this);
+            this.squad = null;
+        } else {
+            System.out.println("Hero " + name + " is not part of any squad.");
+        }
+    }
 }
