@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Random;
+
 public class Hero {
     String name;
     int age;
@@ -48,5 +50,11 @@ public class Hero {
         } else {
             System.out.println("Hero " + name + " is not part of any squad.");
         }
+    }
+
+    public int calculateOverallScore() {
+        // Add a random score to the Heroes
+        Random random = new Random();
+        return random.nextInt(10) + 1; // Generate a random score between 1 and 10
     }
 }
