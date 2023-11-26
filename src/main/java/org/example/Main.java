@@ -34,10 +34,8 @@ public class Main {
         ironMan.joinSquad(avengers);
 
 
-        // homelander.joinSquad(avengers);
+        //homelander.joinSquad(avengers);
 
-        // Perform a battle between two squads
-        //justiceLeague.battle(avengers);
 
         System.out.println("Justice League Members:");
         for (Hero hero : justiceLeague.getHeroes()) {
@@ -48,5 +46,8 @@ public class Main {
         for (Hero hero : avengers.getHeroes()) {
             System.out.println(hero.getName());
         }
+        System.out.println();
+        // Perform a battle between two squads
+        justiceLeague.battle(avengers);
     }
 }
