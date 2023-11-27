@@ -1,13 +1,28 @@
 /* styles.css */
 
+html, body {
+    height: 100%;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     background-image: url('https://images.unsplash.com/photo-1497124401559-3e75ec2ed794?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    /*background-image: url('https://source.unsplash.com/1920x1080/?superhero'); /* Updated image URL */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     font-family: 'Arial', sans-serif;
     color: white;
+    margin: 0;
 }
+
 
 .container {
     max-width: 800px;
