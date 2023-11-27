@@ -1,11 +1,10 @@
-package org.herosquad;
+package org.herosquad.models;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class SquadTest {
-
     @Test
     public void testSquadAddHero() {
         Hero hero = new Hero("Iron Man", 35, "Powered Armor", "Arrogance");
@@ -69,5 +68,6 @@ class SquadTest {
         // Ensure the battle method does not throw exceptions
         squad1.battle(squad2);
     }
+
 
 }

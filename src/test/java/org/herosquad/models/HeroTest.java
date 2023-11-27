@@ -1,4 +1,4 @@
-package org.herosquad;
+package org.herosquad.models;
 
 import org.junit.jupiter.api.Test;
 
