@@ -38,5 +38,20 @@ class SquadTest {
         assertTrue(score >= 1 && score <= 10);
     }
 
+    @Test
+    public void testCalculateSquadScore() {
+        Squad squad = new Squad("Test Squad", 3, "Test Cause");
+        Hero hero1 = new Hero("Hero1", 25, "Power1", "Weakness1");
+        Hero hero2 = new Hero("Hero2", 30, "Power2", "Weakness2");
+
+        squad.addHero(hero1);
+        squad.addHero(hero2);
+
+        int squadScore = squad.calculateSquadScore();
+
+        assertTrue(squadScore >= 2 && squadScore <= 20);
+    }
+
+
 
 }
