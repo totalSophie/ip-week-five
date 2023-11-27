@@ -12,6 +12,7 @@
 <div class="container">
     <h1>Welcome to Hero Squad Manager</h1>
     <p><a href="/heroes" class="btn btn-primary">View Heroes</a></p>
+    <p><a href="/squads" class="btn btn-primary">View Squads</a></p>
     <!-- Add links to other sections -->
 </div>
 

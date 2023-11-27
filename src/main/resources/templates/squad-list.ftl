@@ -1,9 +1,7 @@
-<!-- hero-list.ftl -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Hero List</title>
+    <title>Squad List</title>
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
 </head>
 <body>
@@ -15,13 +13,13 @@
 </nav>
 
 <div class="container">
-    <h1>Hero List</h1>
+    <h1>Squad List</h1>
     <ul>
-        <#list heroes as hero>
-            <li>${hero.name} (Power: ${hero.power}, Weakness: ${hero.weakness})</li>
+        <#list squads as squad>
+            <li>${squad.name} (Cause: ${squad.cause}, Max Size: ${squad.maxSize})</li>
         </#list>
     </ul>
-    <a href="/heroes/new">Add New Hero</a>
+    <a href="/squads/new">Create New Squad</a>
 </div>
 
 </body>

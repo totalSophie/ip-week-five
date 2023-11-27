@@ -13,8 +13,9 @@ html {
 }
 
 body {
-    background-image: url('https://images.unsplash.com/photo-1497124401559-3e75ec2ed794?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    /*background-image: url('https://images.unsplash.com/photo-1497124401559-3e75ec2ed794?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');*/
     /*background-image: url('https://source.unsplash.com/1920x1080/?superhero'); /* Updated image URL */
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ledindon.com%2Fen%2Fobjets-design%2F9464-lampe-batman.php&psig=AOvVaw0_IxQGBwfCU5NGi4q8HPXX&ust=1701197142514000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMD1-67r5IIDFQAAAAAdAAAAABAD');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,6 +29,8 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    font-weight: bold;
+    color: white;
 }
 
 h1 {
@@ -52,6 +55,7 @@ form {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
     border-radius: 10px;
+    color: black;
 }
 
 label {

@@ -1,6 +1,7 @@
 package org.herosquad;
 
 import org.herosquad.controllers.HeroController;
+import org.herosquad.controllers.SquadController;
 import org.herosquad.exceptions.InvalidInputException;
 import org.herosquad.services.SquadService;
 
@@ -12,6 +13,7 @@ public class App {
 
         // Set up routes
         new HeroController(new SquadService());
+        new SquadController(new SquadService());
 
         // Exception handling
         exception(InvalidInputException.class, (e, req, res) -> {
