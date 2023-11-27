@@ -52,6 +52,22 @@ class SquadTest {
         assertTrue(squadScore >= 2 && squadScore <= 20);
     }
 
+    @Test
+    public void testBattle() {
+        Squad squad1 = new Squad("Squad1", 3, "Cause1");
+        Squad squad2 = new Squad("Squad2", 3, "Cause2");
 
+        Hero hero1 = new Hero("Hero1", 25, "Power1", "Weakness1");
+        Hero hero2 = new Hero("Hero2", 30, "Power2", "Weakness2");
+        Hero hero3 = new Hero("Hero3", 28, "Power3", "Weakness3");
+
+        squad1.addHero(hero1);
+        squad1.addHero(hero2);
+
+        squad2.addHero(hero3);
+
+        // Ensure the battle method does not throw exceptions
+        squad1.battle(squad2);
+    }
 
 }
