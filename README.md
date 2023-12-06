@@ -22,8 +22,8 @@ https://totalsophie.github.io/ip-week-five/
 - Java
 
 ## 📷 Screenshots of the site
-![Image of screenshot](src/main/resources/public/css/images/Screenshot from 2023-11-27 22-19-59.png)
-![Image of screenshot](src/main/resources/public/css/images/Screenshot from 2023-11-27 22-21-04.png)
+![Image of screenshot](https://github.com/totalSophie/ip-week-five/blob/main/src/main/resources/public/css/images/Screenshot%20from%202023-11-27%2022-19-59.png)
+![Image of screenshot](https://github.com/totalSophie/ip-week-five/blob/main/src/main/resources/public/css/images/Screenshot%20from%202023-11-27%2022-21-04.png)
 
 ## 👨‍💻 Contact
 - totalsophie@gmail.com
