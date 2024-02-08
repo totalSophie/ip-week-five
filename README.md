@@ -8,7 +8,7 @@ An app that allows you to recruit a well-balanced team of superheroes
 
 ## 👷 Author
 
-Sophia Chisiya
+Soph
 
 ## 🔨 Setup Instructions
 - git clone https://github.com/totalSophie/ip-week-five
